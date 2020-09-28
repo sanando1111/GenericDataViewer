@@ -23,3 +23,7 @@ Also  support the below as well
 http://localhost:9091/generic/data?page=0&size=5&sortClause=id&sortOrder=DESC&filterParam=id&compareParam=gt&filterValue=10017
 
 http://localhost:9091/generic/data?filterParam=id&compareParam=eq&filterValue=10020
+
+
+Used h2 in memory database for designing this. Data load will be completed as data.sql is placed accordingly.
+To test this application run GenericApiViewerApplication.java in your local environment and hit the above url.
